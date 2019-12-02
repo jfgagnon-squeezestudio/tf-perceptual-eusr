@@ -8,9 +8,9 @@ import cv2 as cv
 FLAGS = tf.flags.FLAGS
 
 if __name__ == '__main__':
-  tf.flags.DEFINE_string('input_path', 'LR', 'Base path of the input images.')
-  tf.flags.DEFINE_string('output_path', 'HR', 'Base path of the output (downscaled) images.')
-  tf.flags.DEFINE_integer('scale', 4, 'Downscaling factor.')
+  tf.flags.DEFINE_string('input_path', 'HR', 'Base path of the input images.')
+  tf.flags.DEFINE_string('output_path', 'LR', 'Base path of the output (downscaled) images.')
+  tf.flags.DEFINE_integer('scale', 2, 'Downscaling factor.')
 
 
 def main(unused_argv):

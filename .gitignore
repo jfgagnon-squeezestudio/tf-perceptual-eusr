@@ -1,6 +1,10 @@
 .DS_Store
 .vscode
 
+# Busted the limit of github lfs, so remove it from commit list
+HR/
+LR/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
